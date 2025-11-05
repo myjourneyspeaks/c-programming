@@ -2,10 +2,14 @@
 #include <stdio.h>
 
 int main() {
-  // varianle is a reusable container for a value
-  // it behaves as if were the value it contains
+  // variable is a named storage location in the computer's memory that holds a
+  // value which can change during execution. it behaves as if were the value it
+  // contains
 
   // ============== Interger Datatype ================
+  // intergers are whole numbers that represent positive and negative numbers
+  // such as -3, -2, 1, 9, 10. integers hold a maximum if 4 bytes of
+  // information.
 
   /* int age = 23;
   int year = 2025;
@@ -16,6 +20,8 @@ int main() {
   printf("Your quantiry %d\n", quantity); */
 
   // ============= Float Datatype =====================
+  // floating-point numbers are all numbers including signed and unsigned
+  // decimal and fractional size numbers such as 0.9, 78.99, -99.76.
 
   /* float mark = 97.8;
   float price = 19.99;
@@ -24,6 +30,8 @@ int main() {
   printf("At wendy's icecream, icecream cost $%.2f\n", price); */
 
   // ============ Double Datatype ======================
+  // double stores fractional numbers, containing one or more decimals. 8 byte
+  // of memory.
 
   /* double pi = 3.14159265358979;
     double e = 2.7182818284590;
@@ -31,7 +39,8 @@ int main() {
     printf("The value of pi is %.15lf\n", pi);
     printf("The value of e is %.15lf\n", e); */
 
-  // =========== CHar Datatype ========================
+  // =========== Char Datatype ========================
+  // char data type stores a single character/letter/numner or ASCLL values.
 
   /* char grade = 'A';
   char symbol = '!';
@@ -39,9 +48,10 @@ int main() {
 
   printf("Your grade is %c\n", grade);
   printf("Your favourite symbol is %c\n", symbol);
-  printf("Your currency symbole is %c\n", currency); */
+  printf("Your currency symbol is %c\n", currency); */
 
   // ============ String Datatype =====================
+  // char[] - array of characters
 
   /* char name[] = "Vusumuzi Lindelwe";
   char food[] = "Pizza";
