@@ -1,10 +1,13 @@
 #include <stdio.h>
 
+// Sum function prototype
+int sum(int a, int b);
+
 int main() {
 
   // Q: Write a program to find the Sum of two numbers entered by the user.
 
-  int a, b, sum = 0;
+  int a, b, result = 0;
 
   // Prompt user input
   printf("Enter first number: ");
@@ -14,9 +17,11 @@ int main() {
   scanf("%d", &b);
 
   // sum formulae
-  sum = a + b;
+  result = sum(a, b);
 
-  printf("Sum: %d", sum);
+  printf("Sum: %d", result);
 
   return 0;
 }
+
+int sum(int a, int b) { return a + b; }
