@@ -1,5 +1,6 @@
-// #include <math.h>
+#include <math.h>
 #include <stdio.h>
+// #include <time.h>
 
 // prototypes
 int sizeNumber();
@@ -9,6 +10,7 @@ int main() {
   // Binary to decimal
   int size = sizeNumber();
   int binary[64] = {0};
+  int decimal = 0;
 
   printf("Convert Binary to Decimal\n");
 
@@ -25,6 +27,14 @@ int main() {
       printf("Invalid ");
     }
   }
+
+  // calculations
+  for (int i = 0; i < size; i++) {
+    int power = size - 1 - i;
+    decimal += binary[i] * pow(2, power);
+  }
+
+  printf("\nDecimal Equivalent: %d", decimal);
 
   // for (int i = 0; i < size; i++) {
   //   printf("%d ", binary[i]);
