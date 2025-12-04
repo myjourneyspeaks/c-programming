@@ -26,18 +26,15 @@ cd 'challenge x' # replace X with the challenge number
 
 ## Challenge 1
 
-### Question:
-
+Question:
 - Given a = 5, x = 1, and y = 5, create a C program that outputs the result of the formula:
   f = (a − x)(x − y).
 
-### Goal / Requirements:
-
+Goal / Requirements:
 - Declare the variables a, x, y, and f.
 - Apply the formula f = (a - x) \* (x - y).
 - Print the values of a, x, y, and the result f.
 
-### Notes:
-
+Notes:
 - Ensure that integer arithmetic is used.
 - The challenge focuses on applying a formula using basic variables and operators.
