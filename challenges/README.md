@@ -22,8 +22,6 @@ cd 'challenge x' # replace X with the challenge number
 ./build.sh && main # type this command to run main.c
 ```
 
----
-
 ## Challenge 1
 
 Question:
