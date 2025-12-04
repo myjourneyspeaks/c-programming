@@ -19,10 +19,10 @@ int main() {
 
   // binary check
   for (int i = 0; i < size; i++) {
-    if (binary[i] <= 0 && binary[i] >= 1) {
-      printf("Valid\n");
+    if (binary[i] >= 0 && binary[i] <= 1) {
+      printf("%d ", binary[i]);
     } else {
-      printf("Invalid\n");
+      printf("Invalid ");
     }
   }
 
