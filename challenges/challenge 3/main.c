@@ -7,7 +7,6 @@ int main() {
   float price = 0.0f;
   int quantity = 0;
   float total_revenue = 0.0f;
-  char symbol = '$';
 
   printf("T-shirt Price: ");
   scanf("%f", &price);
@@ -18,7 +17,7 @@ int main() {
   // formula
   total_revenue = price * quantity;
 
-  printf(" Total Revenue = %c%.2f\n", symbol, total_revenue);
+  printf(" Total Revenue = $%.2f\n", total_revenue);
 
   return 0;
 }

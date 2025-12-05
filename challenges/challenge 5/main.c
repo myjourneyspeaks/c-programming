@@ -21,7 +21,7 @@ int main() {
   area = areaofTriangle(a, b, c, s);
   // area = sqrt(s * (s - a) * (s - b) * (s - c));
 
-  printf("the area of the triangl is: %.2f", area);
+  printf("the area of the triangle is: %.2f", area);
 
   return 0;
 }

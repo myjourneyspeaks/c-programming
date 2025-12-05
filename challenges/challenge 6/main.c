@@ -7,7 +7,9 @@ int main() {
 
   // Q: Write a program to find the Sum of two numbers entered by the user.
 
-  int a, b, result = 0;
+  int a = 0;
+  int b = 0;
+  int result = 0;
 
   // Prompt user input
   printf("Enter first number: ");
