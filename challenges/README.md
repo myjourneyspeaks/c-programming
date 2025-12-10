@@ -181,3 +181,115 @@ Notes:
 - Requires including math.h for the pow() function.
 - Uses double to ensure accurate calculations for financial values.
 - Reinforces user input, mathematical operations, and output formatting.
+
+## Challenge 9
+
+Question:
+
+- Write a C program to check whether a given number is Even or Odd. Implement the solution using two different methods:
+  - Using the modulus operator (%)
+  - Using bitwise operations (&)
+
+Goal / Requirements:
+
+- Create a function checkOddEven() that:
+  - Takes an integer
+  - Uses n % 2 to determine if it's even or odd
+  - Prints "Even" or "Odd"
+  - Create a second function bitcheckOddEven() that:
+  - Takes an integer
+  - Uses the expression z & 1 to check the least significant bit
+  - Prints "Even" or "Odd"
+  - Call both functions in main() using sample numbers.
+
+Notes:
+
+- Demonstrates two approaches to solving the same problem.
+- `% 2 == 0` checks divisibility, while & 1 checks the binary least significant bit.
+- Useful for understanding arithmetic vs. bitwise logic.
+
+## Challenge 10
+
+Question:
+
+- Write a C program to find the largest number among three given numbers.
+
+Goal / Requirements:
+
+- Create a function `numCompare()` that accepts three integers.
+- Use conditional statements (if, else if, else) to compare the values.
+- Determine which number is the largest (including handling equal values).
+- Print the largest number.
+
+Notes:
+
+- Uses the logical AND operator (&&) to compare multiple conditions.
+- Handles cases where numbers are equal by using >= comparisons.
+- Demonstrates function usage, conditional logic, and comparison operators.
+
+## Challenge 11
+
+Question:
+
+- Write a C program to find the factorial of a given number using a recursive function.
+
+Goal / Requirements:
+
+- Prompt the user to enter any whole number.
+- Implement a function `calfactorial()` that:
+- Uses recursion
+- Returns 1 when `n == 0` (base case)
+- Otherwise returns `n * calfactorial(n - 1)`.
+- Print the calculated factorial.
+
+Notes:
+
+- Demonstrates recursion, a key programming concept.
+- Factorial of 0 is defined as 1.
+- The function multiplies downward until the base case is reached.
+- Works well for small integers; factorials grow very fast for large numbers.
+
+## Challenge 12
+
+Question:
+
+- Write a C program that converts a binary number (entered digit-by-digit by the user) into its decimal equivalent.
+
+Goal / Requirements:
+
+- Ask the user for the size (number of bits) using a function sizeNumber().
+- Store each binary digit in an array.
+- Validate that each input is either 0 or 1.
+- Convert the binary digits into a decimal value using the formula:
+  - `decimal += binary[i] × 2^(position)`
+- Display the decimal result.
+
+Notes:
+
+- Uses pow() from math.h for calculating powers of 2.
+- Stores binary digits in an integer array of size 64.
+- The loop power = size − 1 − i ensures correct positional value for binary digits.
+- Includes simple binary validation to detect non-binary values.
+- Demonstrates arrays, loops, validation, functions, and binary number conversion.
+
+## Challenge 13
+
+Question:
+
+- Write a C program to print the Fibonacci series using recursion.
+
+Goal / Requirements:
+
+- Prompt the user to enter how many Fibonacci numbers to generate.
+- Implement a recursive function fibonacci(n) that:
+  - Returns 0 when n == 0
+  - Returns 1 when n == 1
+- Otherwise returns fibonacci(n − 1) + fibonacci(n − 2)
+- Use a loop in main() to print each Fibonacci number in sequence.
+
+Notes:
+
+- This challenge highlights recursive computation of the Fibonacci sequence.
+- Begins counting from fibonacci(0) upward.
+- Recursive Fibonacci grows in time complexity very quickly (O(2ⁿ)), but works fine for small values.
+- Demonstrates loops, function calls, and recursive patterns.
