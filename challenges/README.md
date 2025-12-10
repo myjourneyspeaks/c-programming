@@ -156,3 +156,28 @@ Notes:
 - Demonstrates the classic value-swapping technique using a temporary variable.
 - Reinforces variable assignment and basic output formatting.
 - No user input is required for this challenge.
+
+## Challenge 8
+
+Question:
+
+- Write a C program to calculate compound interest using the formula:
+  A = P × (1 + r/100), were here:
+  - P = Principal Amount
+  - r = Annual interest rate
+  - t = Time in years
+  - A = Amount after compound interest
+
+Goal / Requirements:
+
+- Prompt the user to enter the Principal, Rate, and Time.
+- Use the pow() function from math.h to compute compound interest.
+- Calculate the final amount using:
+  - interest = principle \* pow((1 + rate / 100), time)
+- Display the result with two decimal places.
+
+Notes:
+
+- Requires including math.h for the pow() function.
+- Uses double to ensure accurate calculations for financial values.
+- Reinforces user input, mathematical operations, and output formatting.
