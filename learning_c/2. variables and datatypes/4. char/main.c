@@ -7,7 +7,10 @@
 
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
+
+  // char stores a single character such as a letter, digit, or symbol.
 
   char grade = 'A';
   char symbol = '!';

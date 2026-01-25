@@ -7,16 +7,16 @@
 
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
 
-  // floating-point numbers are all numbers including signed and unsigned
-  // decimal and fractional size numbers such as 0.9, 78.99, -99.76.
+  // Floating-point numbers represent real numbers that may include decimal (fractional) parts, such as 0.9, 78.99, and -99.76.
 
-  float mark = 97.8;
-  float price = 19.99;
+  float mark = 97.8f;
+  float price = 19.99f;
 
   printf("You got %.2f%%\n", mark);
-  printf("At wendy's icecream, icecream cosr $%.2f\n", price);
+  printf("At Wendy's, icecream cosy $%.2f\n", price);
 
   return 0;
 }

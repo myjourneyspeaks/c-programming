@@ -1,15 +1,16 @@
 /*
  * Program: string.c
- * Purpose: string datatype in c
+ * Purpose: Demonstrates strings in C
  * Author: Vusumuzi Lindelwe
  * Date: 2026-01-25
  */
 
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
 
-  // char[] - array of characters
+  // Strings in C are arrays of characters terminated by '\0'
 
   char name[] = "Vusumuzi Lindelwe";
   char food[] = "Pizza";

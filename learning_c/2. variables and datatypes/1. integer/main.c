@@ -1,15 +1,16 @@
 /*
- * Program: interger
- * Purpose: Learning interger dataype
+ * Program: integer
+ * Purpose: Learning integer data type
  * Author: Vusumuzi Lindelwe
  * Date: 2026-01-25
  */
 
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
 
-  // Intergers are whole numbers that represents positive and negative numbers
+  // Integers are whole numbers that represents positive and negative numbers
   // such as -3, -4, -2, 2, 9, 10. Intergers hold a maximum of 4 bytes of
   // information
 
