@@ -1,3 +1,10 @@
+/*
+ * Program: userInput.c
+ * Purpose: collecting user input from the user
+ * Author: Vusumuzi Lindelwe
+ * Date: 2026-01-25
+ */
+
 #include <stdio.h>
 #include <string.h> //advanced
 
@@ -5,7 +12,7 @@ int main() {
 
   int age = 0;
   float gpa = 0.0f;
-  char grade = '\0';
+  char grade = '\0'; // null
   char name[30] = "";
 
   // Enter your age
