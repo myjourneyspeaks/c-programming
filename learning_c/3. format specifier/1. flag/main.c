@@ -1,17 +1,18 @@
 /*
- * Program: formatSpecifer1.c
- * Purpose: format specifier
+ * Program: formatSpecifier1.c
+ * Purpose: Demonstrates format specifiers
  * Author: Vusumuzi Lindelwe
  * Date: 2026-01-25
  */
 
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
 
   int age = 23;
   float price = 900.50f;
-  double randNum = 90.48377493;
+  double funLevel = 90.48377493;
   char currency = '$';
   char name[] = "Vusumuzi Lindelwe";
   char surname[] = "Khumalo";
@@ -19,8 +20,8 @@ int main(void) {
   printf("\nName: %s\n", name);
   printf("Surname: %s\n", surname);
   printf("Age: %d\n", age);
-  printf("Networth: %c %.2f\n", currency, price);
-  printf("Fun level: %lf\n", randNum);
+  printf("Net worth: %c %.2f\n", currency, price);
+  printf("Fun level: %f\n", funLevel);
 
   return 0;
 }
