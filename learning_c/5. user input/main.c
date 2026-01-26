@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <string.h> //advanced
 
-int main() {
+int main(void) {
 
   int age = 0;
   double gpa = 0.0;
