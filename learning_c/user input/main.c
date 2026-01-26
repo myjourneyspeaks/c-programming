@@ -6,27 +6,35 @@
  */
 
 #include <stdio.h>
+#include <string.h> //advanced
 
-int main(void) {
+int main() {
 
   int age = 0;
-  double gpa = 0.0f;
+  double gpa = 0.0;
   char grade = '\0'; // null
   char name[30] = "";
 
-  // === User Input ===
-
+  // Enter your age
   printf("Enter your age: ");
   scanf("%d", &age);
 
+  // Enter your gpa
   printf("Enter your GPA: ");
   scanf("%lf", &gpa);
 
+  // Enter your grade
   printf("Enter your grade: ");
   scanf(" %c", &grade);
 
-  // === Display User Input ===
-  printf("%29s\n", name);
+  // Enter your name
+  getchar(); // removes extra line from the buffer
+  printf("What is your full name: ");
+  fgets(name, sizeof(name), stdin);
+  name[strlen(name) - 1] = '\0';
+
+  // Display unser input
+  printf("%s\n", name);
   printf("%d\n", age);
   printf("%.2f\n", gpa);
   printf("%c\n", grade);
