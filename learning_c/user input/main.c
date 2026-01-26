@@ -10,7 +10,7 @@
 int main(void) {
 
   int age = 0;
-  float gpa = 0.0f;
+  double gpa = 0.0f;
   char grade = '\0'; // null
   char name[30] = "";
 
@@ -20,13 +20,13 @@ int main(void) {
   scanf("%d", &age);
 
   printf("Enter your GPA: ");
-  scanf("%f", &gpa);
+  scanf("%lf", &gpa);
 
   printf("Enter your grade: ");
   scanf(" %c", &grade);
 
   // === Display User Input ===
-  printf("%s\n", name);
+  printf("%29s\n", name);
   printf("%d\n", age);
   printf("%.2f\n", gpa);
   printf("%c\n", grade);
