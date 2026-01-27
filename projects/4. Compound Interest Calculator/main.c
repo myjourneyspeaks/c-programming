@@ -1,15 +1,20 @@
+/*
+ * Program: compoundinterestcal.c
+ * Purpose: Demonstrating how to calculate compound interest
+ * Author: Vusumuzi Lindelwe
+ * Date: 2026-01-27
+ */
+
 #include <math.h>
 #include <stdio.h>
 
-int main() {
-  // Compound Interest Calculator
-  double principal = 0.0;
-  double rate = 0.0;
+int main(void) {
+
+  double principal = 0.0, rate = 0.0, total = 0.0;
   int years = 0;
   int timesCompounded = 0;
-  double total = 0.0;
 
-  printf("Compound Interest Calculator\n");
+  printf("=== Compound Interest Calculator ===\n");
 
   printf("Enter the principal (P): ");
   scanf("%lf", &principal);
@@ -29,7 +34,7 @@ int main() {
   // formula
   total = principal * pow(1 + rate / timesCompounded, timesCompounded * years);
 
-  printf("After %d years, the total will be $%.2lf", years, total);
+  printf("After %d years, the total will be $%.2f", years, total);
 
   return 0;
 }
