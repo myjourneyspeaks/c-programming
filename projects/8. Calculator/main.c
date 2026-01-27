@@ -1,6 +1,13 @@
+/*
+ * Program: calculator.c
+ * Purpose: compute calculations
+ * Author: Vusumuzi Lindelwe
+ * Date: 2026-01-27
+ */
+
 #include <stdio.h>
 
-int main() {
+int main(void) {
   // Calculator
 
   char operator = '\0';
@@ -38,7 +45,7 @@ int main() {
     printf("Invalid operator\n");
   }
 
-  printf("Result: %.4lf", result);
+  printf("Result: %.4f", result);
 
   return 0;
 }
