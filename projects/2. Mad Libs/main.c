@@ -1,8 +1,14 @@
+/*
+ * Program: madlibs.c
+ * Purpose:
+ * Author: Vusumuzi Lindelwe
+ * Date: 2026-01-27
+ */
+
 #include <stdio.h>
 #include <string.h>
 
 int main() {
-  // ========= MAD LIBS GAME ==========
 
   char noun[50] = "";       // a noun is a place, a person or a thing
   char verb[50] = "";       // a verb is an action like running
@@ -29,12 +35,6 @@ int main() {
   printf("Enter an adjective (description): ");
   fgets(adjective3, sizeof(adjective3), stdin);
   adjective3[strlen(adjective3) - 1] = '\0';
-
-  // printf("%s\n", noun);
-  // printf("%s\n", verb);
-  // printf("%s\n", adjective1);
-  // printf("%s\n", adjective2);
-  // printf("%s\n", adjective3);
 
   printf("\nToday i went to a %s Zoo.\n", adjective1);
   printf("In an exhibit, i saw a %s.\n", noun);
