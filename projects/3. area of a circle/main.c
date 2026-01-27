@@ -1,13 +1,21 @@
+/*
+ * Program: calRadius.c
+ * Purpose: Calcualting the radius of a circle
+ * Author: Vusumuzi Lindelwe
+ * Date: 2026-01-27
+ */
+
 #include <math.h>
 #include <stdio.h>
 
-int main() {
+#define PI 3.14159
+
+int main(void) {
 
   double radius = 0.0;
   double area = 0.0;
   double surfaceArea = 0.0;
   double volume = 0.0;
-  const double PI = 3.14159;
 
   printf("Enter the radius: ");
   scanf("%lf", &radius);
