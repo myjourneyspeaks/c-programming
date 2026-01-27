@@ -1,10 +1,16 @@
+/*
+ * Program: tempConversion.c
+ * Purpose: demonstrating how to convert tempratature from celsius to fahrenheit
+ * Author: Vusmuzi Lindelwe
+ * Date: 2026-01-27
+ */
+
 #include <stdio.h>
 
-int main() {
+int main(void) {
   // Temperature Conversion program
   char choice = '\0';
-  float fahrenheit = 0.0f;
-  float celsius = 0.0f;
+  double fahrenheit = 0.0f, celsius = 0.0f;
 
   printf("Temperature Conversion Program\n");
   printf("C. Celsius to Fahrenheit\n");
@@ -15,13 +21,13 @@ int main() {
   if (choice == 'C') {
     // C to F
     printf("Enter the temperature in Celsius: ");
-    scanf("%f", &celsius);
+    scanf("%lf", &celsius);
     fahrenheit = (celsius * 9 / 5) + 32;
     printf("%.1f Celsius is equal to %.1f Fahrenheit", celsius, fahrenheit);
   } else if (choice == 'F') {
     // F to C
     printf("Enter thr tempetature in Fahrenheit: ");
-    scanf("%f", &fahrenheit);
+    scanf("%lf", &fahrenheit);
     celsius = (fahrenheit - 32) * 5 / 9;
     printf("%.1f Fahrenheit is equal to %.1f Celsius.", fahrenheit, celsius);
   } else {
