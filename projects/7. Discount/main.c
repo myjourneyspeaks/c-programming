@@ -1,7 +1,14 @@
+/*
+ * Program:
+ * Purpose:
+ * Author: Vusumuzi Lindelwe
+ * Date: 2026-01-27
+ */
+
 #include <stdbool.h>
 #include <stdio.h>
 
-int main() {
+int main(void) {
 
   float price = 10.00;
   bool isStudent = true; // 10% discount
