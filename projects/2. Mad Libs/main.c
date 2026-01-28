@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main(void) {
 
   char noun[50] = "";       // a noun is a place, a person or a thing
   char verb[50] = "";       // a verb is an action like running
