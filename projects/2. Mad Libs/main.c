@@ -1,6 +1,6 @@
 /*
  * Program: madlibs.c
- * Purpose:
+ * Purpose: learning how to use fgets()
  * Author: Vusumuzi Lindelwe
  * Date: 2026-01-27
  */
@@ -13,14 +13,14 @@ int main(void) {
   char noun[50] = "";       // a noun is a place, a person or a thing
   char verb[50] = "";       // a verb is an action like running
   char adjective1[50] = ""; // describes something such as loud
-  char adjective2[50] = ""; // describes something such as loud
-  char adjective3[50] = ""; // describes something such as loud
+  char adjective2[50] = ""; 
+  char adjective3[50] = "";
 
   printf("Enter an adjective (description): ");
   fgets(adjective1, sizeof(adjective1), stdin);
   adjective1[strlen(adjective1) - 1] = '\0';
 
-  printf("Enetr a noun (animal or person): ");
+  printf("Enter a noun (animal or person): ");
   fgets(noun, sizeof(noun), stdin);
   noun[strlen(noun) - 1] = '\0';
 
