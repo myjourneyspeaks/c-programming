@@ -1,8 +1,15 @@
+/*
+ * Program: mathsFunction.c
+ * Purpose: demontration on how to use maths header file
+ * Author: Vusumuzi Lindelwe
+ * Date: 2026-01-28
+ */
+
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main(void) {
 
   // int x = 2;
   // int x = 9;
