@@ -2,8 +2,8 @@
 
 `fgets()`
 
-```> [!CAUTION]
-> fgets(item, sizeof(item), stdin);
+```c [!CAUTION]
+fgets(item, sizeof(item), stdin);
 ```
 
 - reads a full line of text
@@ -14,6 +14,6 @@
 
 `fgets()` keeps the newline and newline causes messy output, hence this line removes it for clean output:
 
-```> [!CAUTION]
-> item[strlen(item) - 1] = '\0';
+```c [!CAUTION]
+item[strlen(item) - 1] = '\0';
 ```
