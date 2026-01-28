@@ -5,7 +5,7 @@
  * Date: 2026-01-27
  */
 
-#include <math.h>
+// #include <math.h>
 #include <stdio.h>
 
 #define PI 3.14159
@@ -21,9 +21,16 @@ int main(void) {
   scanf("%lf", &radius);
 
   // formula
-  area = PI * pow(radius, 2);
-  surfaceArea = 4 * PI * pow(radius, 2);
-  volume = (4.0 / 3.0) * PI * pow(radius, 3);
+
+  /*
+   * area = PI * pow(radius, 2);
+   * surfaceArea = 4 * PI * pow(radius, 2);
+   * volume = (4.0 / 3.0) * PI * pow(radius, 3);
+   */
+
+  area = PI * radius * radius;
+  surfaceArea = 4 * PI * radius * radius;
+  volume = (4.0 / 3.0) * PI * radius * radius * radius;
 
   printf("Area: %.2f\n", area);
   printf("Surface Area: %.2f\n", surfaceArea);
