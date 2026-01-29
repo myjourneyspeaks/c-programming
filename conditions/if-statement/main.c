@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main(void) {
 
   // if statement = Do some code if a condition is true.
   //                If the condition is false, dont do it.
