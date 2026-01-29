@@ -9,7 +9,7 @@
 
 int main(void) {
 
-  int i = 0, j = 0, k = 0, max = 0;
+  int i = 0, j = 0, k = 0, max;
 
   printf("Enter First Whole Number: ");
   scanf("%d", &i);
@@ -18,15 +18,29 @@ int main(void) {
   printf("Enter Third Whole Number: ");
   scanf("%d", &k);
 
-  if (i > j)
-    if (i > k)
+  // if (i > j)
+  //   if (i > k)
+  //     max = i;
+  //   else
+  //     max = k;
+  // else if (j > k)
+  //   max = j;
+  // else
+  //   max = k;
+
+  if (i > j) {
+    if (i > k) {
       max = i;
-    else
+    } else {
       max = k;
-  else if (j > k)
-    max = j;
-  else
-    max = k;
+    }
+  } else {
+    if (j > k) {
+      max = j;
+    } else {
+      max = k;
+    }
+  }
 
   printf("max = %d", max);
 
