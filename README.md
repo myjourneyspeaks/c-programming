@@ -1,7 +1,18 @@
-# Learning C Programming Language
+# C Programming Language
 
-1. 'learning_c' folder contains all the basics of C language.
-2. 'condition' folder contains all the conditions used in c language and their syntax and notes on how to use them.
-3. 'loop' folder contains all the loops used in c language and thier syntx as well as my own notes on them.
-4. 'practice' folder contains codes i am experimenting on.
-5. 'challenges' folder contains challenges some from the books and some from internet.
+Hello internet, Welcome! This repository is organized like a beginner-friendly book to learn c.
+
+Where to start:
+1. Read the introduction:
+2. Work through the chapters in order
+3. Use visual studio code: [website](https://code.visualstudio.com/download)
+
+<!-- Layout:
+- 
+
+Guidelines:
+-
+
+Quick Commands:-->
+
+Happy Learning!
