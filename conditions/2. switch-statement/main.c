@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
   // switch is an alternative to using many if-else statements
   //           more efficient with fixed integer values
 
