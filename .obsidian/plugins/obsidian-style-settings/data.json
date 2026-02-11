@@ -1,0 +1,11 @@
+{
+  "Components@@tab-autohide": true,
+  "Components@@status-bar-autohide": true,
+  "Components@@Ribbon-autohide": true,
+  "Components@@nav-header-autohide": true,
+  "Components@@tab-title-bar-autohide": true,
+  "Components@@vault-profile-autohide": true,
+  "Components@@colorful-folder": true,
+  "Components@@outline-enhanced": true,
+  "Appearance-dark@@theme-dark-style-select": "theme-dark-background-black"
+}
