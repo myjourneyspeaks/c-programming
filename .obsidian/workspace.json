@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207.5
+    "width": 207.5,
+    "collapsed": true
   },
   "right": {
     "id": "c6848cf409fc50c3",
@@ -181,6 +182,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "79b1377920d47d07",
-  "lastOpenFiles": []
+  "active": "43ce6dd3af5cf8f6",
+  "lastOpenFiles": [
+    "2. variables and datatypes/README.md",
+    "1. introduction to C/README.md"
+  ]
 }

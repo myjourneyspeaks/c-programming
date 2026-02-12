@@ -7,12 +7,14 @@ C is a widely used programming language developed in the early 1970s. It is a by
 - C is efficient, portable and it is a powerful language.
 ## Syntax
 
-- `#include <stdio.h>` tells the compiler to include a **header file**. It is necessary to “_include_” information about C’s standard I/O library. The program’s executable goes inside the `main`, which represents the “_main_” program.
-- `main()` is a special function and your program wont run without it.
+- `#include <stdio.h>` tells the compiler to include a **header file**. It is necessary to “_include_” information about C’s standard **I/O** library. The program’s executable goes inside the `main`, which represents the “_main_” program.
+- `main()` is required as the program’s entry point. Without it, the program cannot link or execute.
 - Any code inside the curly brackets `{}` will be executed.
 - `printf()` is a function from the standard I/O library that can produce nicely formatted output.
 - The `\n` code tells `printf()` to advance to the next line after printing the message.
-- The line `return 0` indicates that the program “_returns_” the value 0 to the operating system when it terminates.
+- The line `return 0` indicates that the program “_returns_” the value 0 to the operating system when it terminates. When your program ends:
+	- 0 = success
+	- none-zero = error
 
 ## Compiling and Linking
 
@@ -83,6 +85,20 @@ Example:
 
 ```c
 // (void) tells the compiler no arguments are taken
+```
+
+## Additional notes
+
+Empty parentheses in C (not C++), this:
+
+```c
+int main()
+```
+
+does not mean “no parameters”. It means “_I am not specifying the parameters_”. Morden C still accepts this, but its a bad style. The correct way to say “no parameters” is:
+
+```c
+int main(void)
 ```
 
 ## Keywords:
