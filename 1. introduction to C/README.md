@@ -95,7 +95,7 @@ Empty parentheses in C (not C++), this:
 int main()
 ```
 
-does not mean “no parameters”. It means “_I am not specifying the parameters_”. Morden C still accepts this, but its a bad style. The correct way to say “no parameters” is:
+does not mean “no parameters”. It means “_I am not specifying the parameters_”. Modern C still accepts this, but its a bad style. The correct way to say “no parameters” is:
 
 ```c
 int main(void)
