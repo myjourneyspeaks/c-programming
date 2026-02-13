@@ -65,3 +65,27 @@ float profit = 2150.48;
 float profit = 2150.48f;
 ```
 
+## Identifiers
+
+As we are writing a program we will have to choose names for variables, functions, macros and other entities. These names are called _identifiers_. In C, an identifier may contain letters, digits, and underscores, but must begin with a letter or underscore. Example:
+
+```c
+int times10;
+char get_next_char;
+bool _done;
+```
+
+The following are not legal identifiers:
+
+```c
+int 10times;
+char get-next-char;
+```
+
+C is _case sensitive_: it distinguishes between upper-case and lower-case letters in identifiers. For example:
+
+```c
+job joB jOb JOB JoB
+```
+
+these are all different.
