@@ -16,5 +16,6 @@ Example: the conversion specification `%d` specifies that `printf` is to convert
 
 Conversion specifications give the programmer a great deal of control over the appearance of output. A conversion specification can have the form `%m.pX` or `%-m.pX` where:
 
-- `m` and `p` are integer constants and `X` is a letter
+- `m` and `p` are integer constants and `X` is a letter.
+- both `m` and `p` are optional.
 
