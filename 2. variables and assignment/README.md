@@ -89,3 +89,19 @@ job joB jOb JOB JoB
 ```
 
 these are all different.
+
+## Naming Conversions
+
+1. For variables:
+	- Use camelCase for variable names, example: `frequencyCount`, `personName`.
+	- Constants can use UPPER_SNAKE, example: `MAX_SIZE`, `P1`.
+	- Start variable names with a lowercase letter
+	- Use descriptive and meaningful names.
+
+2. For Function:
+	- Use camelCase for function names, example: `getName()`, `countFrequency()`.
+	- function names should generally be verbs or verb phrases that describe the action.
+
+3. For Structures
+	- Use Pascal Case for Structure names, example: `Car`, `Person`.
+	- Structure names should be nouns or noun phrases.
