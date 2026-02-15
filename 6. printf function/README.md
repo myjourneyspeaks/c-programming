@@ -17,5 +17,8 @@ Example: the conversion specification `%d` specifies that `printf` is to convert
 Conversion specifications give the programmer a great deal of control over the appearance of output. A conversion specification can have the form `%m.pX` or `%-m.pX` where:
 
 - `m` and `p` are integer constants and `X` is a letter.
-- both `m` and `p` are optional.
+- both `m` and `p` are optional, if `p` is omitted, the period that separates `m` and `p` is also dropped.
 
+The **minimum field width** ,`m` , specifies the minimum number of characters to print. Putting a minus sign in front of `m` causes left justification.
+
+The meaning of **precision**, `p` depends on the choice of X, the **conversion specifier**.
